@@ -16,12 +16,12 @@
 		class="flex h-screen w-full flex-col justify-evenly space-y-25 bg-[url(/background.jpg)] bg-cover bg-center bg-no-repeat"
 	>
 		<!-- header -->
-		<header class="z-50 grid h-24 w-full grid-cols-3 items-center">
-			<div></div>
-			<div class=" justify-self-center">
+		<header class="z-50 flex h-24 w-full items-center justify-between sm:grid sm:grid-cols-3">
+			<div class="hidden sm:block"></div>
+			<div class=" px-4 sm:justify-self-center">
 				<img class="  w-26 lg:w-35" src="logo.png" alt="Netflix Logo" />
 			</div>
-			<div class=" justify-self-end pr-4">
+			<div class=" pr-4 sm:justify-self-end">
 				<button
 					class=" h-fit w-fit cursor-pointer rounded-sm bg-red-600 px-3 py-2 font-medium text-white transition-all duration-500 ease-in hover:bg-white hover:text-red-500 md:px-5 md:font-semibold"
 					>Sign In</button
@@ -31,7 +31,7 @@
 
 		<!-- hero -->
 		<div class="z-50 flex-3 space-y-9 text-center text-white">
-			<h2 class=" text-3xl font-semibold lg:text-6xl lg:font-bold">See what's next</h2>
+			<h2 class="text-3xl font-semibold sm:text-4xl lg:text-6xl lg:font-bold">See what's next</h2>
 			<p
 				class="text-base font-medium uppercase md:text-xl md:font-semibold lg:text-2xl lg:font-bold"
 			>
