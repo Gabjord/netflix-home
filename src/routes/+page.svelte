@@ -13,7 +13,7 @@
 <main class=" relative h-screen w-full">
 	<!-- hero section -->
 	<section
-		class="flex h-screen w-full flex-col justify-evenly space-y-25 bg-[url(background.jpg)] bg-cover bg-center bg-no-repeat"
+		class="flex h-screen w-full flex-col justify-evenly space-y-25 bg-[url(/background.jpg)] bg-cover bg-center bg-no-repeat"
 	>
 		<!-- header -->
 		<header class="z-50 grid h-24 w-full grid-cols-3 items-center">
@@ -93,26 +93,24 @@
 			</div>
 
 			<!-- img div -->
-			<section
-				class="mt-3 flex flex-col gap-3 px-3 pb-3 text-center lg:flex lg:justify-evenly lg:text-left"
-			>
+			<section class="mt-3 grid gap-3 pb-3 text-center lg:grid-cols-3 lg:text-left">
 				<!-- 1 -->
 				<div class="flex flex-col items-center gap-2">
-					<img src="tab-content-2-1.png" alt="img1" class="w-103" />
+					<img src="tab-content-2-1.png" alt="img1" class="w-full lg:w-103" />
 					<h1 class="text-xl font-medium">Watch on your TV</h1>
-					<p class="text-center text-balance text-gray-400/90 lg:text-left">
+					<p class="text-center text-balance text-gray-400/90">
 						Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
 					</p>
 				</div>
 				<!-- 2 -->
 				<div class="flex flex-col items-center gap-2">
-					<img src="tab-content-2-2.png" alt="img2" class="w-106" />
+					<img src="tab-content-2-2.png" alt="img2" class="w-full lg:w-106" />
 					<h1 class="text-xl font-medium">Watch instantly or download for later</h1>
 					<p class="text-gray-400/90">Available on phone and tablet, wherever you go.</p>
 				</div>
 				<!-- 3 -->
 				<div class="flex flex-col items-center gap-2">
-					<img src="tab-content-2-3.png" alt="img3" class="w-106" />
+					<img src="tab-content-2-3.png" alt="img3" class="w-full lg:w-106" />
 					<h1 class="text-xl font-medium">Use any computer</h1>
 					<p class="text-gray-400/90">Watch right on Netflix.com.</p>
 				</div>
